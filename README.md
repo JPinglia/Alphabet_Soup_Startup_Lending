@@ -1,10 +1,10 @@
 # Alphabet Soup Startup Lending
 
-Venture capital firm Alphabet Soup, is attempting to leverage machine learning and neural networks to create a successful business model to determine the likely hood of business success. The neural network model will take input customer data and determine if a business will be successfull. 
+Venture capital firm Alphabet Soup is attempting to leverage machine learning and neural networks to create a successful business model to determine the likely hood of business success. The neural network model will take input customer data and determine if a business will be successful. 
 
 
 # Technologies:
-The program is written using Jupyter notebooks, for ease of code reading and code execution via code blocks. The program lays out a step-wise reporting and program execution. The code is run in a (apidev) environment with the use of the following libraries:
+The program is written using Jupyter notebooks, for ease of code reading and code execution via code blocks. The program lays out a stepwise reporting and program execution. The code is run in a (apidev) environment with the use of the following libraries:
 
 Pandas
 Pathlib
@@ -13,10 +13,10 @@ Keras
 sklearn
 
 # Installation Guide:
-Python 3.7.11 - base installation is required. PIP install jupyterlab and required liberaies. 
+Python 3.7.11 - base installation is required. PIP install jupyterlab and required libraries. 
 
 # Usage:
-Program ingests csv data file with customer data. It then create a sequentional model. Data is split into training and testing data sets and standardized. A binary classification model using a neural network is created. Three models are compiled. One as the original with a standard recommended setup and two alternative models with difference in neural layers, nodes and the number of training epochs.
+Program ingests csv data file with customer data. It then create a sequential model. Data is split into training and testing data sets and standardized. A binary classification model using a neural network is created. Three models are compiled. One as the original with a standard recommended setup and two alternative models with difference in neural layers, nodes, and the number of training epochs.
 
 Results were follows:
 
